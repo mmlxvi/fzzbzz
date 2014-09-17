@@ -51,6 +51,7 @@ html {
 	min-height:100%;
 }
 
+
 #main {
 	text-align:center;
 	margin-top:40px;
@@ -71,4 +72,5 @@ html {
 
 #numberInput {
 	height:1.5em;
+	width:42px;
 }

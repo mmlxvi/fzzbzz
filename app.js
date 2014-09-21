@@ -8,7 +8,7 @@ $('#numberInput').keydown(function(e) {
 	   if(e.keyCode == 13) {
 		
     limit = document.getElementById("numberInput").value;
-
+    
 	}
 
 	
@@ -36,8 +36,9 @@ $('#numberInput').keydown(function(e) {
         $("#listonumbers").append('<p>' + counter + '</p>');
     }
 }
-
+	
 })
+
 
 
 

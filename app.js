@@ -5,6 +5,7 @@ var limit;
 	
 $('#button').click(function() {
 
+		$('#listonumbers').empty();
 
 	   //if(e.keyCode == 13) {
 		

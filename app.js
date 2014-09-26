@@ -3,14 +3,23 @@ $(document).ready(function() {
 var counter=1;
 var limit;
 	
-$('#numberInput').keydown(function(e) {
+$('#button').click(function() {
 
-	   if(e.keyCode == 13) {
+	   //if(e.keyCode == 13) {
 		
-    limit = document.getElementById("numberInput").value;
-    
-	}
+    	limit = document.getElementById("numberInput").value;
+    	
+    	$('#numberInput').val('');
 
+
+	//}
+
+/* $('#numberInput').keyup(function(e) {
+
+		if(e.keyCode == 13) {
+			alert("key up");
+		}
+}) */
 	
 
 

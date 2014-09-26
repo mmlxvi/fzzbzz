@@ -98,6 +98,17 @@ html {
 
 }
 
+#button {
+	border: 1px black solid;
+	background:white;
+	height:1.9em;
+}
+
+#button:focus {
+	outline:2px black solid;
+	outline-offset:1px; ;
+}
+
 #bottompart {
 	border-top:1px black solid;
 }

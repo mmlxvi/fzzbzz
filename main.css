@@ -99,6 +99,15 @@ html {
 
 }
 
+.grid {
+	height:20px;
+	width:80px;
+	border:1px black solid;
+	margin:3px;
+	padding:1px;
+}
+
+
 #button {
 	border: 1px black solid;
 	background:white;
@@ -123,12 +132,7 @@ html {
 }
 
 #square {
-	height:20px;
-	width:80px;
 	background:#D5FEF8;
-	border:1px black solid;
-	margin:3px;
-	padding:1px;
 }
 
 #fizz {

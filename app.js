@@ -25,21 +25,21 @@ $('#button').click(function() {
 			for (counter = 1; counter <= limit; counter++) {
     		if ((counter % 3 === 0) && (counter % 5 === 0)) {
         	//console.log("fizzbuzz");
-        	$("#listonumbers").append('<div id="fizzbuzz">' + "fizzbuzz" + '</div>');
+        	$("#listonumbers").append('<div class="grid" id="fizzbuzz">' + "fizzbuzz" + '</div>');
     		}
     
     		else if (counter % 3 === 0) {
         	//console.log("fizz");
-        	$("#listonumbers").append('<div id="fizz">' + "fizz" + '</div>');
+        	$("#listonumbers").append('<div class="grid" id="fizz">' + "fizz" + '</div>');
     		}
     
     		else if (counter % 5 === 0) {
         	//console.log("buzz");
-        	$("#listonumbers").append('<div id="buzz">' + "buzz" + '</div>');
+        	$("#listonumbers").append('<div class="grid" id="buzz">' + "buzz" + '</div>');
    			}
     		else {
         	//console.log(counter);
-        	$("#listonumbers").append('<div id="square">' + counter + '</div>');
+        	$("#listonumbers").append('<div class="grid" id="square">' + counter + '</div>');
     		}
     	}
 }

@@ -91,8 +91,10 @@ html {
 	margin:2px;
 	line-height:1.1em;
 	display:inline-block;
-	width:840px;
+	width:810px;
 	border:1px solid black;
+	text-align:left;
+
 }
 
 #numberInput:focus {
@@ -108,8 +110,8 @@ html {
 	margin:3px;
 	padding:1px;
 	display:inline-block;
-}
 
+}
 
 #button {
 	border: 1px black solid;

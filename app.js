@@ -12,7 +12,7 @@ $('#button').click(function() {
     	limit = document.getElementById("numberInput").value;
     	$('#numberInput').val('');
 
-    	if (limit < 1 || limit > 100) {
+    	if (limit < 1 || limit > 99) {
     		alert("Please enter a number between 1 and 100.");
     	}
     	

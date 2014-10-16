@@ -61,9 +61,16 @@ html {
 #heading {
 	font-size:4em;
 	margin-bottom:20px;
+	width:810px;
+	margin-left:auto;
+	margin-right:auto;
 	border-top:1px solid black;
 	border-bottom:1px solid black;
 	padding:4px;
+}
+
+#heading img {
+	margin-top:12px;
 }
 
 #instructions {
@@ -72,6 +79,7 @@ html {
 	text-align:center;
 	margin-left:auto;
 	margin-right:auto;
+
 }
 
 #userInput {
@@ -88,11 +96,10 @@ html {
 	color:black;
 	font-size:1.2em;
 	padding:4px;
-	margin:2px;
+	
 	line-height:1.1em;
 	display:inline-block;
 	width:810px;
-	
 	text-align:left;
 
 }
@@ -103,6 +110,7 @@ html {
 
 }
 
+
 .grid {
 	height:20px;
 	width:80px;
@@ -110,7 +118,35 @@ html {
 	margin:3px;
 	padding:1px;
 	display:inline-block;
+	text-align:center;
 
+}
+
+#fizz {
+	height:20px;
+	width:80px;
+	background:#E3FED5;
+	border:1px black solid;
+	margin:3px;
+	padding:1px;
+}
+
+#buzz {
+	height:20px;
+	width:80px;
+	background:#C1E6C1;
+	border:1px black solid;
+	margin:3px;
+	padding:1px;
+}
+
+#fizzbuzz {
+	height:20px;
+	width:80px;
+	background:#FF5860;
+	border:1px black solid;
+	margin:3px;
+	padding:1px;
 }
 
 #button {
@@ -140,32 +176,7 @@ html {
 	background:#D5FEF8;
 }
 
-#fizz {
-	height:20px;
-	width:80px;
-	background:#E3FED5;
-	border:1px black solid;
-	margin:3px;
-	padding:1px;
-}
 
-#buzz {
-	height:20px;
-	width:80px;
-	background:#C1E6C1;
-	border:1px black solid;
-	margin:3px;
-	padding:1px;
-}
-
-#fizzbuzz {
-	height:20px;
-	width:80px;
-	background:#FF5860;
-	border:1px black solid;
-	margin:3px;
-	padding:1px;
-}
 
 #bottompart {
 	border-top:1px black solid;

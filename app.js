@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+$( "#numberInput" ).focus();
 var counter=1;
 var limit;
 	

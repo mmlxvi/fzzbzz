@@ -52,7 +52,7 @@ html {
 }
 /* my work below */
 
-.italic {  font-style: italic;  }
+
 
 #main {
 	text-align:center;
@@ -101,12 +101,11 @@ html {
 }
 
 #numberInput {
-	height:1.5em;
+	height:2.6em;
 	width:42px;
 	border:black 1px solid;
-	height:3.5em;
 	text-align:center;
-
+	margin-right:5px;
 }
 
 #numberInput:focus {
@@ -126,7 +125,6 @@ html {
 	color:black;
 	font-size:1.2em;
 	padding:4px;
-	
 	line-height:1.1em;
 	display:inline-block;
 	width:810px;
@@ -175,12 +173,16 @@ html {
 #button {
 	border: 1px black solid;
 	background:white;
-	height:3.9em;
+	height:3em;
+	margin-left:5px;
+	outline-offset:1px;
+	outline:2px black solid;
+
 }
 
 #button:focus {
-	outline:2px black solid;
-	outline-offset:1px; ;
+	
+	outline-offset:1px;
 }
 
 #button:hover {

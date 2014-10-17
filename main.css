@@ -106,13 +106,15 @@ html {
 	border:black 1px solid;
 	text-align:center;
 	margin-right:5px;
+	outline:2px black solid;
+	outline-offset:1px; 
 }
 
-#numberInput:focus {
+/* #numberInput:focus {
 	outline:2px black solid;
 	outline-offset:1px; 
 
-}
+} */
 
 #numberInput.cursor {
 	-webkit-animation: blink 2s linear 0s infinite;
